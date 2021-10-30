@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://example.com/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getCarRequest>
+            <us:carId>1</us:carId>
+        </us:getCarRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
